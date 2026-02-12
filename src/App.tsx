@@ -14,20 +14,20 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
+      "BUJBI IS ANGY!",
+      "Pretty please!!",
+      "kapsz egy kis matchát",
+      "vagy egy kis babyzést",
+      "vagy millio puszit",
+      "BUJBIIIIIII",
       "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
+      "Bubi ded",
+      "ok akk ic ovah",
+      "please bublido",
       ":((((",
       "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "konyec",
+      "You hate me.",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOOHOOO!!! I love you bujbi (more haha)</div>
         </>
       ) : (
         <>
